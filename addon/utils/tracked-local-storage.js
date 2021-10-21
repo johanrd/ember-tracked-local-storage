@@ -20,7 +20,7 @@ export default class TrackedLocalStorage {
   /**
    * Accessing the browser local storage
    */
-  _localStorage = window.localStorage;
+  _localStorage = window.sessionStorage;
 
   /**
    * Internal map for mirroring the values stored in browser local storage, but with tracked values
